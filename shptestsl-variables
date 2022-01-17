@@ -1,5 +1,7 @@
 replica.name=test_sl2
+#connection.string=Endpoint=sb://testsbgm.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WqWx2xf+GUFZBYLXq4OOdoPcfoqwh5BAqBhis2ZiUj4=;EntityPath=notify-event-inbound-drtest
+subscription.path=notify-event-inbound-drtest/subscriptions/dr_subscriber
 connection.string=Endpoint=sb://testsbgm.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WqWx2xf+GUFZBYLXq4OOdoPcfoqwh5BAqBhis2ZiUj4=;EntityPath=notify-event-inbound-drtest
 subscription.path=notify-event-inbound-drtest/subscriptions/dr_subscriber
 
-UPDATE=2101131007
+UPDATE=2201171008
